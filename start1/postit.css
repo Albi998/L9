@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+    background-color: gray;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+
+#lavagna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#lavagna div {
+    text-align: center;
+    margin: 50px;
+    box-shadow: 3px 3px 5px #000000c4;
+    padding: 80px;
+}
+
+#lavagna div:hover {
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    box-shadow: 5px 5px 8px #000000c4;
+    z-index: 10;
+}
+
+#lavagna h2 {
+    font-size: 4em;
+}
+
+#lavagna p {
+    font-size: 2em;
+}
+
+#uno {
+    background-image: linear-gradient(#FDFDCB, #BDBDA3);
+    transform: rotate(8deg);
+}
+
+
+#due {
+    background-image: linear-gradient(#C9FFCD, #9EB89F);
+    transform: rotate(-5deg);
+}
+
+#tre {
+    background-image: linear-gradient(#CBC9F8, #8A8C9B);
+    transform: rotate(3deg);
+}
+
+#quattro {
+    background-image: linear-gradient(#C9FFCD, #9EB89F);
+    transform: rotate(6deg);
+}
+
+#cinque {
+    background-image: linear-gradient(#FDFDCB, #BDBDA3);
+    transform: rotate(-4deg);
+}
+
+#sei {
+    background-image: linear-gradient(#CBC9F8, #8A8C9B);
+    transform: rotate(-9deg);
+}
+
+#sette {
+    background-image: linear-gradient(#FDFDCB, #BDBDA3);
+    transform: rotate(3deg);
+}
+
+#otto {
+    background-image: linear-gradient(#C9FFCD, #9EB89F);
+    transform: rotate(-6deg);
+}
